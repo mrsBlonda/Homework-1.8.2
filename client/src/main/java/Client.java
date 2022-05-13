@@ -10,7 +10,7 @@ public class Client {
 
     public static void main(String[] args) {
         int port = 8079;
-        String host = "127.0.0.1";
+        String host = "netology.homework";
         Scanner scan = new Scanner(System.in);
         try (Socket clientsocket = new Socket(host, port);
              PrintWriter out = new PrintWriter(clientsocket.getOutputStream(), true);
